@@ -17,8 +17,16 @@
 		"eslint-plugin-svelte": "^2.26.0",
 		"prettier": "^2.8.0",
 		"prettier-plugin-svelte": "^2.8.1",
+		"sass": "^1.62.1",
 		"svelte": "^3.54.0",
+		"svelte-preprocess": "^5.0.3",
 		"vite": "^4.3.0"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"@sveltejs/adapter-vercel": "^3.0.0",
+		"mapbox-gl": "^2.14.1",
+		"mongoose": "^7.1.1",
+		"svelte-loading-spinners": "^0.3.4"
+	}
 }
